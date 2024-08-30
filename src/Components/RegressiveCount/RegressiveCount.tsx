@@ -1,7 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "./RegressiveCount.css";
 import "../../Sources/CommonStyleSheet.css"
-import SquareDateComponent from "../SquareDateComponent/SquareDateComponent";
 import { useEffect, useState } from "react";
 import moment from "moment";
 

@@ -6,9 +6,7 @@
     font-style: italic;
     -webkit-text-stroke: 0.2px black;
     white-space: normal;
-    /* Asegura que el texto haga el wrap */
     word-wrap: break-word;
-    /* Permite que el texto se divida en varias líneas si es necesario */
     overflow-wrap: break-word;
 }
 
@@ -20,9 +18,7 @@
     font-style: italic;
     -webkit-text-stroke: 0.2px black;
     white-space: normal;
-    /* Asegura que el texto haga el wrap */
     word-wrap: break-word;
-    /* Permite que el texto se divida en varias líneas si es necesario */
     overflow-wrap: break-word;
 }
 
@@ -34,9 +30,7 @@
     font-style: italic;
     -webkit-text-stroke: 0.2px black;
     white-space: normal;
-    /* Asegura que el texto haga el wrap */
     word-wrap: break-word;
-    /* Permite que el texto se divida en varias líneas si es necesario */
     overflow-wrap: break-word;
 }
 
@@ -93,6 +87,14 @@
 .without-overflow {
     overflow: hidden;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: white !important;
+    }
+}
+
+/*Animations*/
 
 @keyframes show-left {
     from {

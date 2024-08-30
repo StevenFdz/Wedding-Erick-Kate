@@ -2,26 +2,42 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./GalleryComponent.css";
 import "../../Sources/CommonStyleSheet.css"
 import { useState } from "react";
+import Picture1 from "../../asseets/Picture1.JPG";
+import Picture2 from "../../asseets/Picture2.JPG";
+import Picture3 from "../../asseets/Picture3.JPG";
+import Picture4 from "../../asseets/Picture4.JPG";
+import Picture5 from "../../asseets/Picture5.JPG";
+import Picture6 from "../../asseets/Picture6.JPG";
+import Picture7 from "../../asseets/Picture7.JPG";
+import Picture8 from "../../asseets/Picture8.JPG";
+import Picture9 from "../../asseets/Picture9.JPG";
+import Picture10 from "../../asseets/Picture10.JPG";
+import Picture11 from "../../asseets/Picture11.JPG";
+import Picture12 from "../../asseets/Picture12.JPG";
+import Picture13 from "../../asseets/Picture13.JPG";
+import Picture14 from "../../asseets/Picture14.JPG";
+import Picture15 from "../../asseets/Picture15.JPG";
+import Picture16 from "../../asseets/Picture16.JPG";
 
 const GalleryComponent = () => {
-    const [displayedImage, setDisplayedImage] = useState("./Wedding-Erick-Kate/images/Picture1.JPG")
+    const [displayedImage, setDisplayedImage] = useState(Picture1)
     const images = [
-        { src: './Wedding-Erick-Kate/images/picture1.jpg', alt: 'Image 1' },
-        { src: './Wedding-Erick-Kate/images/Picture2.JPG', alt: 'Image 2' },
-        { src: './Wedding-Erick-Kate/images/Picture3.JPG', alt: 'Image 3' },
-        { src: './Wedding-Erick-Kate/images/Picture4.JPG', alt: 'Image 4' },
-        { src: './Wedding-Erick-Kate/images/Picture5.JPG', alt: 'Image 5' },
-        { src: './Wedding-Erick-Kate/images/Picture6.JPG', alt: 'Image 6' },
-        { src: './Wedding-Erick-Kate/images/Picture7.JPG', alt: 'Image 7' },
-        { src: './Wedding-Erick-Kate/images/Picture8.JPG', alt: 'Image 8' },
-        { src: './Wedding-Erick-Kate/images/Picture9.JPG', alt: 'Image 9' },
-        { src: './Wedding-Erick-Kate/images/Picture10.JPG', alt: 'Image 10' },
-        { src: './Wedding-Erick-Kate/images/Picture11.JPG', alt: 'Image 11' },
-        { src: './Wedding-Erick-Kate/images/Picture12.JPG', alt: 'Image 12' },
-        { src: './Wedding-Erick-Kate/images/Picture13.JPG', alt: 'Image 13' },
-        { src: './Wedding-Erick-Kate/images/Picture14.JPG', alt: 'Image 14' },
-        { src: './Wedding-Erick-Kate/images/Picture15.JPG', alt: 'Image 15' },
-        { src: './Wedding-Erick-Kate/images/Picture16.JPG', alt: 'Image 16' }
+        { src: Picture1, alt: 'Image 1' },
+        { src: Picture2, alt: 'Image 2' },
+        { src: Picture3, alt: 'Image 3' },
+        { src: Picture4, alt: 'Image 4' },
+        { src: Picture5, alt: 'Image 5' },
+        { src: Picture6, alt: 'Image 6' },
+        { src: Picture7, alt: 'Image 7' },
+        { src: Picture8, alt: 'Image 8' },
+        { src: Picture9, alt: 'Image 9' },
+        { src: Picture10, alt: 'Image 10' },
+        { src: Picture11, alt: 'Image 11' },
+        { src: Picture12, alt: 'Image 12' },
+        { src: Picture13, alt: 'Image 13' },
+        { src: Picture14, alt: 'Image 14' },
+        { src: Picture15, alt: 'Image 15' },
+        { src: Picture16, alt: 'Image 16' }
     ];
 
     return (
