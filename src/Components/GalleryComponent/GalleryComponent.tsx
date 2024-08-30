@@ -6,7 +6,7 @@ import { useState } from "react";
 const GalleryComponent = () => {
     const [displayedImage, setDisplayedImage] = useState("./Wedding-Erick-Kate/images/Picture1.JPG")
     const images = [
-        { src: './Wedding-Erick-Kate/images/Picture1.JPG', alt: 'Image 1' },
+        { src: './Wedding-Erick-Kate/images/picture1.jpg', alt: 'Image 1' },
         { src: './Wedding-Erick-Kate/images/Picture2.JPG', alt: 'Image 2' },
         { src: './Wedding-Erick-Kate/images/Picture3.JPG', alt: 'Image 3' },
         { src: './Wedding-Erick-Kate/images/Picture4.JPG', alt: 'Image 4' },
