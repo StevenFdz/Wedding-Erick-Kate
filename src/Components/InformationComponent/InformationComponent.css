@@ -1,7 +1,14 @@
 .background-information {
     min-height: 100vh;
     position: relative;
+    background-color: white;
 } 
+
+@media (prefers-color-scheme: dark) {
+    .background-information  {
+      background-color: white !important;
+    }
+}
 
 .content-container {
     border-top: 2px solid rgb(90, 119, 94); /* Borde izquierdo azul */

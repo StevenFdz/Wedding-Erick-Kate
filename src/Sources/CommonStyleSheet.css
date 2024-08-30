@@ -128,13 +128,11 @@
     from {
         opacity: 0;
         scale: 25%;
-        /* Comienza sin rotación */
     }
 
     to {
         opacity: 1;
         scale: 100%
-        /* Rota 360 grados */
     }
 }
 
