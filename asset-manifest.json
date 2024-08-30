@@ -1,14 +1,30 @@
 {
   "files": {
-    "main.css": "/Wedding-Erick-Kate/static/css/main.0decf2c7.css",
-    "main.js": "/Wedding-Erick-Kate/static/js/main.e7dbdcd1.js",
+    "main.css": "/Wedding-Erick-Kate/static/css/main.bc817642.css",
+    "main.js": "/Wedding-Erick-Kate/static/js/main.0d798c7f.js",
     "static/media/UpperCreeperDecorator.png": "/Wedding-Erick-Kate/static/media/UpperCreeperDecorator.d6fe617a99ca75eadc01.png",
     "static/media/Quedate.mp3": "/Wedding-Erick-Kate/static/media/Quedate.593bc4d8a5412f11d091.mp3",
     "static/media/DownCreeperDecorator.png": "/Wedding-Erick-Kate/static/media/DownCreeperDecorator.c028ed8cc3f5d3d413c7.png",
     "static/media/paper2.png": "/Wedding-Erick-Kate/static/media/paper2.67ee73dfc2e416bebf68.png",
     "static/media/backgroundConfirmAssistance-h.jpg": "/Wedding-Erick-Kate/static/media/backgroundConfirmAssistance-h.e85bd2fcb55185cff1d8.jpg",
+    "static/media/Picture16.JPG": "/Wedding-Erick-Kate/static/media/Picture16.3c58bdab6adb51a92f71.JPG",
+    "static/media/Picture12.JPG": "/Wedding-Erick-Kate/static/media/Picture12.84caf683d152d64138d7.JPG",
+    "static/media/Picture3.JPG": "/Wedding-Erick-Kate/static/media/Picture3.c626564afe250ad1a705.JPG",
+    "static/media/Picture2.JPG": "/Wedding-Erick-Kate/static/media/Picture2.a7fc437b474e8cf93f50.JPG",
     "static/media/backgroundRegressiveCount.JPG": "/Wedding-Erick-Kate/static/media/backgroundRegressiveCount.a7fc437b474e8cf93f50.JPG",
+    "static/media/Picture10.JPG": "/Wedding-Erick-Kate/static/media/Picture10.44374b44475d493cacc3.JPG",
+    "static/media/Picture1.JPG": "/Wedding-Erick-Kate/static/media/Picture1.94389945861054e71f80.JPG",
     "static/media/backgroundMainComponent.JPG": "/Wedding-Erick-Kate/static/media/backgroundMainComponent.94389945861054e71f80.JPG",
+    "static/media/Picture4.JPG": "/Wedding-Erick-Kate/static/media/Picture4.89ab3978d79a978c23e6.JPG",
+    "static/media/Picture11.JPG": "/Wedding-Erick-Kate/static/media/Picture11.229ce8dd8eb6e6470b08.JPG",
+    "static/media/Picture7.JPG": "/Wedding-Erick-Kate/static/media/Picture7.b0fa56c652b62f2284c2.JPG",
+    "static/media/Picture8.JPG": "/Wedding-Erick-Kate/static/media/Picture8.910212c1a4c358564184.JPG",
+    "static/media/Picture13.JPG": "/Wedding-Erick-Kate/static/media/Picture13.9f6b3e1b4942c2c5cc5b.JPG",
+    "static/media/Picture9.JPG": "/Wedding-Erick-Kate/static/media/Picture9.b2ef818a26569a0ea84b.JPG",
+    "static/media/Picture14.JPG": "/Wedding-Erick-Kate/static/media/Picture14.92a603fe5cf673021969.JPG",
+    "static/media/Picture5.JPG": "/Wedding-Erick-Kate/static/media/Picture5.2d2bdecd43ca7f3fd25c.JPG",
+    "static/media/Picture6.JPG": "/Wedding-Erick-Kate/static/media/Picture6.29689f1a08f69401834a.JPG",
+    "static/media/Picture15.JPG": "/Wedding-Erick-Kate/static/media/Picture15.9346d3e7d0ae01fd50c3.JPG",
     "static/media/JoinUsBackground.png": "/Wedding-Erick-Kate/static/media/JoinUsBackground.f952e95be3bf4035a46c.png",
     "static/media/itinerary.jpg": "/Wedding-Erick-Kate/static/media/itinerary.c54be344ec0a7dacf7d8.jpg",
     "static/media/BasilicaLosAngeles.jpg": "/Wedding-Erick-Kate/static/media/BasilicaLosAngeles.28592234793b370f0041.jpg",
@@ -32,11 +48,11 @@
     "static/media/church.png": "/Wedding-Erick-Kate/static/media/church.fda4dff7ee110959d6e1.png",
     "static/media/EnvelopeIcon.png": "/Wedding-Erick-Kate/static/media/EnvelopeIcon.2a37e38364a3445e6d53.png",
     "index.html": "/Wedding-Erick-Kate/index.html",
-    "main.0decf2c7.css.map": "/Wedding-Erick-Kate/static/css/main.0decf2c7.css.map",
-    "main.e7dbdcd1.js.map": "/Wedding-Erick-Kate/static/js/main.e7dbdcd1.js.map"
+    "main.bc817642.css.map": "/Wedding-Erick-Kate/static/css/main.bc817642.css.map",
+    "main.0d798c7f.js.map": "/Wedding-Erick-Kate/static/js/main.0d798c7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0decf2c7.css",
-    "static/js/main.e7dbdcd1.js"
+    "static/css/main.bc817642.css",
+    "static/js/main.0d798c7f.js"
   ]
 }
