@@ -1,0 +1,56 @@
+.custom-dropdown {
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+
+.custom-dropdown .dropdown-toggle {
+    background-color: white; /* Color de fondo del botón */
+    color: #5A775E; /* Color de letra del botón */
+    border-color: white;
+  }
+  
+  .custom-dropdown .dropdown-menu {
+    background-color:white; /* Color de fondo del menú desplegable */
+    border-color: white;
+  }
+  
+  .custom-dropdown .dropdown-item {
+    color: #5A775E; /* Color de letra de los elementos del menú */
+  }
+  
+  .custom-dropdown .dropdown-item:hover {
+    background-color: #5A775E; /* Color de fondo de los elementos del menú al pasar el ratón */
+    color: white;/* Color de letra de los elementos del menú al pasar el ratón */
+  }
+
+  .custom-dropdown .dropdown-toggle::selection {
+    background-color: black; /* Color de fondo del botón */
+    color: white; /* Color de letra del botón */
+    border-color: black;
+  }
+
+  .custom-dropdown .dropdown-toggle::hover {
+    background-color: black; /* Color de fondo del botón */
+    color: white; /* Color de letra del botón */
+    border-color: black;
+  }
+
+.background-image-paper {
+    background-image: url("../../asseets/paper2.png");
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
+    background-position: center;
+}
+
+.guest-list {
+  list-style-type: none;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.dropdown-menu {
+  max-height: 200px; /* Ajusta la altura máxima según tus necesidades */
+  overflow-y: auto;  /* Agrega un scrollbar vertical si el contenido es mayor a max-height */
+}
+

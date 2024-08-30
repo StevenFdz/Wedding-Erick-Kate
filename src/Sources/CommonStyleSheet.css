@@ -1,0 +1,222 @@
+.wedding-font {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 400%;
+    font-weight: normal;
+    font-style: italic;
+    -webkit-text-stroke: 0.2px black;
+    white-space: normal;
+    /* Asegura que el texto haga el wrap */
+    word-wrap: break-word;
+    /* Permite que el texto se divida en varias líneas si es necesario */
+    overflow-wrap: break-word;
+}
+
+.wedding-font-sm {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+    font-weight: normal;
+    font-style: italic;
+    -webkit-text-stroke: 0.2px black;
+    white-space: normal;
+    /* Asegura que el texto haga el wrap */
+    word-wrap: break-word;
+    /* Permite que el texto se divida en varias líneas si es necesario */
+    overflow-wrap: break-word;
+}
+
+.wedding-paragraph-font {
+    color: rgb(90, 119, 94);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 230%;
+    font-weight: normal;
+    font-style: italic;
+    -webkit-text-stroke: 0.2px black;
+    white-space: normal;
+    /* Asegura que el texto haga el wrap */
+    word-wrap: break-word;
+    /* Permite que el texto se divida en varias líneas si es necesario */
+    overflow-wrap: break-word;
+}
+
+.wedding-font-xsm {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-weight: normal;
+    font-style: italic;
+    -webkit-text-stroke: 0.2px black;
+    white-space: normal;
+    /* Asegura que el texto haga el wrap */
+    word-wrap: break-word;
+    /* Permite que el texto se divida en varias líneas si es necesario */
+    overflow-wrap: break-word;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center-items {
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.blue-green {
+    color: rgb(90, 119, 94);
+}
+
+.without-stroke {
+    -webkit-text-stroke: 0px black;
+}
+
+.without-padding {
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.lateral-padding {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.wide-element {
+    max-width: 100%;
+}
+
+.without-overflow {
+    overflow: hidden;
+}
+
+@keyframes show-left {
+    from {
+        opacity: 0;
+        transform: translateX(-10%);
+        /* Comienza completamente fuera del viewport por la izquierda */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+        /* Se mueve a su posición original */
+    }
+}
+
+@keyframes show-right {
+    from {
+        opacity: 0;
+        transform: translateX(10%);
+        /* Comienza completamente fuera del viewport por la izquierda */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+        /* Se mueve a su posición original */
+    }
+}
+
+@keyframes scale-animation {
+    from {
+        opacity: 0;
+        scale: 25%;
+        /* Comienza sin rotación */
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%
+        /* Rota 360 grados */
+    }
+}
+
+.scale {
+    view-timeline-name: --scale;
+    view-timeline-axis: block;
+
+    animation-timeline: --scale;
+    animation-name: scale-animation;
+
+    animation-range: entry 100% cover 40%;
+    animation-fill-mode: both;
+}
+
+.slide-in-left {
+    view-timeline-name: --text;
+    view-timeline-axis: block;
+
+    animation-timeline: --text;
+    animation-name: show-left;
+
+    animation-range: entry 100% cover 40%;
+    animation-fill-mode: both;
+}
+
+.slide-in-right {
+    view-timeline-name: --text2;
+    view-timeline-axis: block;
+
+    animation-timeline: --text2;
+    animation-name: show-right;
+
+    animation-range: entry 100% cover 40%;
+    animation-fill-mode: both;
+
+    max-width: 100vw;
+}
+
+@media only screen and (max-width: 920px) {
+    .wedding-font {
+        font-size: 300%;
+    }
+
+    .wedding-font-sm {
+        font-size: 250%;
+    }
+
+    .wedding-paragraph-font {
+        color: rgb(90, 119, 94);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 200%;
+        font-weight: normal;
+        font-style: italic;
+        -webkit-text-stroke: 0.2px black;
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .wedding-font {
+        font-size: 250%;
+    }
+
+    .wedding-font-sm {
+        font-size: 220%;
+    }
+
+    .wedding-paragraph-font {
+        color: rgb(90, 119, 94);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 160%;
+        font-weight: normal;
+        font-style: italic;
+        -webkit-text-stroke: 0.2px black;
+    }
+}

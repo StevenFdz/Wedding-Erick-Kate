@@ -1,0 +1,10 @@
+.good-wishes-icon {
+    width: 150px;
+    height: 150px;
+}
+
+.good-wishes-content {
+    background-color: rgba(255, 255, 255, 0.245);
+    border-top-left-radius: 25px; /* Radio del borde superior izquierdo */
+    border-top-right-radius: 25px;
+}

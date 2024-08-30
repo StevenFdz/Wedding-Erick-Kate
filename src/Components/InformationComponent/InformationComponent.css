@@ -1,0 +1,88 @@
+.background-information {
+    min-height: 100vh;
+    position: relative;
+} 
+
+.content-container {
+    border-top: 2px solid rgb(90, 119, 94); /* Borde izquierdo azul */
+    border-bottom: 2px solid rgb(90, 119, 94); /* Borde derecho rojo */
+    padding: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+.upper-corner-decorator {
+    position: absolute; /* Posiciona la imagen fuera del flujo normal */
+    top: 0px; /* Ajusta la posición vertical según necesites */
+    left: 0px; /* Ajusta la posición horizontal según necesites */
+    z-index: 10; /* Asegura que la imagen esté por encima de otros elementos */
+    width: 20%; /* Ajusta el tamaño de la imagen según necesites */
+    height: 50%; /* Mantiene la proporción de la imagen */
+}
+
+.dress-code-icon-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+    height: 100%; /* Si el contenedor tiene una altura definida */
+    padding: 25px;
+}
+
+.dress-code-icon {
+    width: 150px;
+    height: 150px;
+}
+
+.item-icon-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+    height: 100%; /* Si el contenedor tiene una altura definida */
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.item-container {
+    list-style-type: disc; /* Mantiene las viñetas */
+    padding-left: 20px; /* Espacio para las viñetas */
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en filas */
+    align-items: center; /* Centra los elementos verticalmente */
+    height: 100%; /* Asegura que el contenedor tenga altura completa para centrar verticalmente */
+  }
+  
+.item-container li {
+    margin-right: 20px; /* Espacio entre los elementos en la misma fila */
+    margin-bottom: 10px; /* Espacio entre las filas */
+    flex: 1 0 45%; /* Ajusta el ancho de los elementos */
+    min-width: 0; /* Permite que el <li> se reduzca para evitar el desbordamiento */
+    white-space: wrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.item-icon {
+    width: 75px;
+    height: 75px;
+}
+
+.down-corner-decorator {
+    position: absolute; /* Posiciona la imagen fuera del flujo normal */
+    bottom: 0px; /* Ajusta la posición vertical según necesites */
+    right: 0px; /* Ajusta la posición horizontal según necesites */
+    z-index: 10; /* Asegura que la imagen esté por encima de otros elementos */
+    width: 20%; /* Ajusta el tamaño de la imagen según necesites */
+    height: 50%; /* Mantiene la proporción de la imagen */
+}
+
+.circle {
+    width: auto; /* Ancho del círculo */
+    padding-bottom: 100%;
+    border-radius: 50%; /* Hace que el div sea un círculo */
+}
+
+.add-border {
+    border: 1px solid black; 
+}
+
+.border-bottom {
+    border-bottom: 2px solid white
+}

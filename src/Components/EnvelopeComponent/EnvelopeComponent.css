@@ -1,0 +1,103 @@
+.container-envelope {
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+    background-color: white;
+    transition: background-color 4s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.square-envelope {
+    width: 100%;
+    height: 80%;
+    margin: 0px;
+    max-width: 400px;
+    transition: transform 2s ease-in-out;
+    background-image:  url("../../asseets/backgroundEnvelopeBottom.png");
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 200px solid #3e6549;
+    border-top: 40vh solid transparent;
+    border-bottom: 40vh solid transparent;
+    transition: transform 2s ease-in-out;
+    max-width: 400px;
+    left: 50%; /* Coloca el borde izquierdo del elemento en el centro horizontal del contenedor */
+    transform: translateX(-190px);
+}
+
+.move-right {
+    transform: translate(100vw, 0%);
+    display: hidden;
+}
+
+.move-left {
+    transform: translate(-100vw, 0%);
+}
+
+.container-envelope.transparent-background {
+    background-color: transparent;
+}
+
+.logo-envelope {
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s ease-in-out;
+}
+
+.tap-me-logo {
+    width: 100px;
+    height: 125px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s ease-in-out;
+    transform: translateY(80px);
+}
+
+.tap-me-logo.move-left {
+    transform: translate(-100vw, 80px);
+}
+
+.no-scroll-y {
+    overflow-y: hidden;
+    overflow: hidden;
+}
+
+.background-envelope-bottom{
+    background-image:  url("../../asseets/backgroundEnvelopeBottom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+.not-visible {
+    display: none;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .triangle.move-left {
+        transform: translate(-150vw, 0%);
+    }
+    .triangle{
+        transform: translateX(-45vw);
+    }   
+}

@@ -1,0 +1,22 @@
+.background-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),90%,
+    rgba(255, 255, 255, 0.5)), url("../../asseets/backgroundMainComponent.JPG");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.center {
+    text-align: center;
+    padding-top: 0px;
+    
+}
+
+@media (orientation: portrait) {
+    .background-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), 90%,
+        rgba(255, 255, 255, 0.5)), url("../../asseets/backgroundMainComponent.JPG");
+    }
+}
+

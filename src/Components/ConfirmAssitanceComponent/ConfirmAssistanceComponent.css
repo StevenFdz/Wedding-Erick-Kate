@@ -1,0 +1,24 @@
+.background-image-confirm-assistance {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+    
+}
+
+.background-image-confirm-assistance::before {
+    content: '';
+    position: absolute;
+    filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../../asseets/backgroundConfirmAssistance-h.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.whatsapp-icon {
+    width: 100px; 
+    height: 100px;
+}

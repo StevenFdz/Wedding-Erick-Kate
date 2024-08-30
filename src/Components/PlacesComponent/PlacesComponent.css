@@ -1,0 +1,23 @@
+.resize-location-picture {
+    height: 375px;
+    width: 100%;
+    border-radius: 75px; 
+}
+
+.location-button {
+    font-style: normal;
+    -webkit-text-stroke: 0px;
+    background-color:  rgb(90, 119, 94);
+}
+
+.rezise-decorator {
+    height: 100px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .rezise-decorator {
+        height: 15%;
+    }
+    
+}

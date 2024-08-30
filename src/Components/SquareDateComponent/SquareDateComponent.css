@@ -1,0 +1,12 @@
+.items {
+    text-align: center;
+    width: auto;
+    height: auto;
+    
+}
+
+.square {
+    border-color: white;
+    border-width: 3px;
+    border-style:solid;
+}

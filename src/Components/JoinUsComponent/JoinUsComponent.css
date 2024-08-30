@@ -1,0 +1,29 @@
+.background-image-join-us {
+    background-image: url("../../asseets/JoinUsBackground.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    max-width: 100vh;;
+}
+
+.resize-logo {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    margin: auto;    
+    display: block;
+}
+
+@media (orientation: portrait) {
+    .background-image-join-us{
+        background-image: url("../../asseets/JoinUsBackgroundPortrait.png");
+        background-size: 100% 100%;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .resize-logo {
+        width: 150px;
+        height: 150px;
+    }
+}

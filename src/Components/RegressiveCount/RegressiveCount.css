@@ -1,0 +1,30 @@
+.background-image-regressive-count {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../asseets/backgroundRegressiveCount.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 60vh;
+  }
+
+.center-vertical-content {
+    padding-bottom: 10%;
+}
+
+.items {
+    text-align: center;
+    width: auto;
+    height: auto;
+    
+}
+
+.square {
+    border-color: white;
+    border-width: 3px;
+    border-style:solid;
+}
+
+@media (orientation: portrait) {
+    .center-vertical-content {
+        padding-bottom: 3%;
+    }
+}
