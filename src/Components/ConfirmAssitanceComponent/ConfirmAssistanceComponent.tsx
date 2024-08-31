@@ -22,7 +22,7 @@ const ConfirmAssistanceComponent = () => {
                 </Row>
                 <Row className="align-items-center justify-content-center text-center mx-auto">
                     <Col>
-                    <a href="https://wa.me/86644596?text=Hola,%20confirmo%20mi%20asistencia%20a%20la%20boda%20de%20Katherine%20y%20Erick.%20Atentamente:%20Por%20favor%20escriba%20su%20nombre%20y%20el%20de%20los%20invitados%20a%20asistir%20o%20bien%20solamente%20el%20de%20su%20familia." target="_blank">
+                    <a href="https://wa.me/86644596?text=Hola,%20confirmo%20mi%20asistencia%20a%20la%20boda%20de%20Katherine%20y%20Erick.%20Atentamente:%20Por%20favor%20escriba%20su%20nombre%20y%20el%20de%20los%20invitados%20a%20asistir:" target="_blank">
                         <img src={whatsapp} alt="icon" className="whatsapp-icon" style={{marginTop: "2%"}}/>
                     </a>
                     </Col>

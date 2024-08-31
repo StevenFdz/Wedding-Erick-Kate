@@ -89,7 +89,7 @@
     "Karen Cruz Córdoba"
   ],
   "Familia Elizondo Segura": [
-    "Alexander Elizondo",
+    "Alexander Elizondo Vásquez",
     "Dayana Segura Camacho"
   ],
   "Familia Estrada Fernández": [
@@ -122,6 +122,10 @@
     "Carmen Sandoval Bogarin",
     "Iván Fernández Sandoval"
   ],
+  "Familia Gómez Cruz": [
+    "Elena Cruz Cordoba",
+    "Javier Gómez Madrigal"
+  ],
   "Familia Hernández Solano": [
     "Pamela Solano Rodríguez",
     "Miguel Hernández Fernández",
@@ -136,10 +140,6 @@
     "Génesis Jara Solano",
     "David Álvarez Esquivel",
     "Angelo Solano Rodríguez"
-  ],
-  "Familia Madrigal Cruz": [
-    "Elena Cruz Cordoba",
-    "Javier Gómez Madrigal"
   ],
   "Familia Murillo Quesada": [
     "Hugo Murillo Moya",
@@ -164,8 +164,8 @@
   ],
   "Familia Sandoval Calvo": [
     "Marcos Sandoval Calvo",
-    "Clara Calvo",
-    "María"
+    "Clara Calvo Chacón",
+    "María Calvo Chacón"
   ],
   "Familia Segura Granados": [
     "Jason Segura Solano",
@@ -196,7 +196,7 @@
     "Erika Guillén Serrano",
     "Nazaret Solano Guillén",
     "Isaac Solano Guillén",
-    "Cristhie Susano Solano Masís"
+    "Cristhie Susana Solano Masís"
   ],
   "Familia Solano Rodríguez": [
     "Hermés Solano Meza",
@@ -210,6 +210,10 @@
   "Familia Soto Bonilla": [
     "Claudio Soto Quirós",
     "Rosa Bonilla Cháves"
+  ],
+  "Familia Valenciano Campos": [
+    "Kenia Campos Benavides",
+    "Michael Valenciano Quesada"
   ],
   "Familia Villalobos Mora": [
     "Alejandra Mora Valverde",
@@ -238,13 +242,13 @@
     "Sthephanie Barrantes Valverde",
     "Fernanda Calero Salas"
   ],
+  "Pareja Hidalgo Arroyo": [
+    "Sybil Hidalgo Azofeifa",
+    "Melissa Arroyo Godínez"
+  ],
   "Pareja Merenstein Trejos": [
     "Nikole Trejos Castro",
     "Yoel Merenstein Hoffman"
-  ],
-  "Pareja Valenciano Campos": [
-    "Kenia Campos Benavides",
-    "Michael Valenciano Quesada"
   ],
   "Paula Redondo Romero": [
     "Paula Redondo Romero"
@@ -255,9 +259,6 @@
   ],
   "Suzanne González Gómez": [
     "Suzanne González Gómez"
-  ],
-  "Sybil Hidalgo Azofeifa": [
-    "Sybil Hidalgo Azofeifa"
   ],
   "Teresita Segura Cascante": [
     "Teresita Segura Cascante"
