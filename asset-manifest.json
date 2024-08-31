@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Wedding-Erick-Kate/static/css/main.1229fecc.css",
-    "main.js": "/Wedding-Erick-Kate/static/js/main.0d798c7f.js",
+    "main.css": "/Wedding-Erick-Kate/static/css/main.d07b9443.css",
+    "main.js": "/Wedding-Erick-Kate/static/js/main.7193547f.js",
     "static/media/UpperCreeperDecorator.png": "/Wedding-Erick-Kate/static/media/UpperCreeperDecorator.d6fe617a99ca75eadc01.png",
     "static/media/Quedate.mp3": "/Wedding-Erick-Kate/static/media/Quedate.593bc4d8a5412f11d091.mp3",
     "static/media/DownCreeperDecorator.png": "/Wedding-Erick-Kate/static/media/DownCreeperDecorator.c028ed8cc3f5d3d413c7.png",
@@ -48,11 +48,11 @@
     "static/media/church.png": "/Wedding-Erick-Kate/static/media/church.fda4dff7ee110959d6e1.png",
     "static/media/EnvelopeIcon.png": "/Wedding-Erick-Kate/static/media/EnvelopeIcon.2a37e38364a3445e6d53.png",
     "index.html": "/Wedding-Erick-Kate/index.html",
-    "main.1229fecc.css.map": "/Wedding-Erick-Kate/static/css/main.1229fecc.css.map",
-    "main.0d798c7f.js.map": "/Wedding-Erick-Kate/static/js/main.0d798c7f.js.map"
+    "main.d07b9443.css.map": "/Wedding-Erick-Kate/static/css/main.d07b9443.css.map",
+    "main.7193547f.js.map": "/Wedding-Erick-Kate/static/js/main.7193547f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1229fecc.css",
-    "static/js/main.0d798c7f.js"
+    "static/css/main.d07b9443.css",
+    "static/js/main.7193547f.js"
   ]
 }
